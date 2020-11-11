@@ -3,7 +3,6 @@ $('#menu-checkbox').on('click', function () {
     var y = document.getElementById('main');
     var z = document.getElementById('footer-navig');
     if ( $(this).is(':checked') ) {
-    if ( $(this).is(':checked') ) {
         x.className += " invisible";
         y.className += " invisible";
         z.className += " invisible";
