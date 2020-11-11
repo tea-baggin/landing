@@ -9,6 +9,8 @@ $('#menu-checkbox').on('click', function () {
     } else {
         // checkbox unchecked 
         x.className = "logo";
+        y.className = "main";
+        z.className = "footer-nav disabled";
     }
 })
 
